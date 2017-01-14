@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="tw.com.ksu4040e064.ksu4040e064_3.MainActivity"
+    android:weightSum="1">
+
+    <TextView
+            android:text="@string/tvID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvID"
+            android:textSize="24sp" />
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/etID"
+            android:fontFamily="sans-serif"
+            android:hint="@string/etID" />
+
+    <TextView
+        android:text="@string/tvpasswd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvpasswd"
+        android:textSize="24sp" />
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberPassword"
+            android:ems="10"
+            android:id="@+id/etpasswd"
+            android:layout_weight="0.00"
+            android:hint="@string/etpasswd" />
+
+    <TextView
+            android:text="@string/tvcellphone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvcellphone"
+            android:textSize="24sp"
+            android:layout_weight="0.00" />
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:ems="10"
+            android:id="@+id/etcellphone"
+            android:hint="@string/etcellphone" />
+
+    <Button
+            android:text="@string/btsubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btsubmit"
+            android:onClick="onClickSubmit"/>
+
+    <Button
+            android:text="@string/bthelp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bthelp"
+            android:onClick="onClickHelp"/>
+
+</LinearLayout>

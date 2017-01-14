@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">161018-作業3</string>
+    <string name="title_activity_help">我的志願</string>
+    <string name="tvID">帳號：</string>
+    <string name="etID">請輸入帳號</string>
+    <string name="tvpasswd">密碼：</string>
+    <string name="etpasswd">請輸入密碼</string>
+    <string name="tvcellphone">手機：</string>
+    <string name="etcellphone">請輸入手機號碼</string>
+    <string name="btsubmit">送出</string>
+    <string name="bthelp">幫助</string>
+    <string name="tvname">姓名：</string>
+    <string name="etname">請輸入姓名</string>
+    <string name="tvstudentID">學號：</string>
+    <string name="etstudentID">請輸入學號</string>
+    <string name="btback1">叩首</string>
+    <string name="btback2">返回</string>
+
+</resources>
